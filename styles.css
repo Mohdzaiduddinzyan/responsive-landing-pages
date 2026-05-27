@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "My-font";
+    src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf) ,url(/assets/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    background-color: white;
+width: 310px;
+height: 430px;
+margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+h1{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0 20px;
+    margin-bottom: -10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+
+p{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.container{
+    border: 2px solid black;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.one{
+    padding: 0 20px;
+}
+
+.two p{
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.three{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    padding-left: 3px;
+}
+
+.three img{
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+}
+
+span{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: -5px;
+    
+}
