@@ -15,9 +15,12 @@ background-color: hsl(47, 88%, 63%);
 
 .container{
     background-color: white;
-width: 310px;
-height: 430px;
-margin: 0 auto;
+    width: 19.375rem;
+    height: 26.875rem;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 80px;
+    border-radius: 10px;
 }
 
 img{
@@ -50,11 +53,6 @@ p{
     margin-top: 20px;
 }
 
-.container{
-    border: 2px solid black;
-    margin-top: 80px;
-    border-radius: 10px;
-}
 
 .one{
     padding: 0 20px;
